@@ -1,0 +1,461 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://yingying-zhang.github.io/beo:Building"
+    }, {
+      "@id" : "https://yingying-zhang.github.io/beo:Element"
+    }, {
+      "@id" : "https://yingying-zhang.github.io/beo:Site"
+    }, {
+      "@id" : "https://yingying-zhang.github.io/beo:Storey"
+    } ]
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://yingying-zhang.github.io/0.3"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/Energy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/Information",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/Observation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/Zone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:3DModel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Information"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Area",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Building",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Command",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Energy"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Energy"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Element",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:FeatureOfInterest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Function",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Energy"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Input",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Issue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Information"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Measurement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Output",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Information"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Energy"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Procedure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Regulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Information"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Result",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Sample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Sensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Energy"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Site",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Space",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:State",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Energy"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Storey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Task",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Energy"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:TimeSeriesData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Information"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Energy"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/beo:UnitOfMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/has3DModel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:3DModel"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Area"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasBuilding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Building"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasCommand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Command"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Element"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Function"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasInput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Procedure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Input"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasObservation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasOutput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Sample"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Sensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Output"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Result"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Price"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Price"
+  }, {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasSample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Sample"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://yingying-zhang.github.io/isSampleOf"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasSpace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Space"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasState",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:State"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasStorey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/Zone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Storey"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasTimeSeriesData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Measurement"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Output"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Result"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:TimeSeriesData"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Output"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Result"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Sample"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Sensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/isAccomplishedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Task"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Device"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/isOfferedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Device"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/isPropertyOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Sensor"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/isResultOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Result"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Sample"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/isSampleOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Sample"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:FeatureOfInterest"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/madeBySensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Measurement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Sensor"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/makesMeasurement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Device"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Sensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Measurement"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/observes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Sensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://yingying-zhang.github.io/beo:Property"
+  } ]
+}, {
+  "@id" : "https://yingying-zhang.github.io/resultTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://yingying-zhang.github.io/Observation"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Output"
+  }, {
+    "@id" : "https://yingying-zhang.github.io/beo:Result"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+} ]

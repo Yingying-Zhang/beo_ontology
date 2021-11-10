@@ -1,0 +1,324 @@
+<https://yingying-zhang.github.io/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://yingying-zhang.github.io/> <http://www.w3.org/2002/07/owl#versionIRI> <https://yingying-zhang.github.io/0.3> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://yingying-zhang.github.io/has3DModel
+<https://yingying-zhang.github.io/has3DModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/has3DModel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/Zone> .
+<https://yingying-zhang.github.io/has3DModel> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:3DModel> .
+# 
+# https://yingying-zhang.github.io/hasArea
+<https://yingying-zhang.github.io/hasArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasArea> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/Zone> .
+<https://yingying-zhang.github.io/hasArea> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Area> .
+# 
+# https://yingying-zhang.github.io/hasBuilding
+<https://yingying-zhang.github.io/hasBuilding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasBuilding> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/Zone> .
+<https://yingying-zhang.github.io/hasBuilding> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Building> .
+# 
+# https://yingying-zhang.github.io/hasCommand
+<https://yingying-zhang.github.io/hasCommand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasCommand> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Function> .
+<https://yingying-zhang.github.io/hasCommand> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Command> .
+# 
+# https://yingying-zhang.github.io/hasElement
+<https://yingying-zhang.github.io/hasElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasElement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/Zone> .
+<https://yingying-zhang.github.io/hasElement> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Element> .
+# 
+# https://yingying-zhang.github.io/hasFunction
+<https://yingying-zhang.github.io/hasFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasFunction> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Device> .
+<https://yingying-zhang.github.io/hasFunction> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Function> .
+# 
+# https://yingying-zhang.github.io/hasInput
+<https://yingying-zhang.github.io/hasInput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasInput> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Procedure> .
+<https://yingying-zhang.github.io/hasInput> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Input> .
+# 
+# https://yingying-zhang.github.io/hasObservation
+<https://yingying-zhang.github.io/hasObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasObservation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/Zone> .
+<https://yingying-zhang.github.io/hasObservation> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/hasOutput
+<https://yingying-zhang.github.io/hasOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasOutput> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Sample> .
+<https://yingying-zhang.github.io/hasOutput> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Sensor> .
+<https://yingying-zhang.github.io/hasOutput> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Output> .
+<https://yingying-zhang.github.io/hasOutput> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Result> .
+# 
+# https://yingying-zhang.github.io/hasPrice
+<https://yingying-zhang.github.io/hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Price> .
+<https://yingying-zhang.github.io/hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Service> .
+<https://yingying-zhang.github.io/hasPrice> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Price> .
+# 
+# https://yingying-zhang.github.io/hasSample
+<https://yingying-zhang.github.io/hasSample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasSample> <http://www.w3.org/2002/07/owl#inverseOf> <https://yingying-zhang.github.io/isSampleOf> .
+<https://yingying-zhang.github.io/hasSample> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:FeatureOfInterest> .
+<https://yingying-zhang.github.io/hasSample> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Sample> .
+# 
+# https://yingying-zhang.github.io/hasSpace
+<https://yingying-zhang.github.io/hasSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasSpace> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/Zone> .
+<https://yingying-zhang.github.io/hasSpace> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Space> .
+# 
+# https://yingying-zhang.github.io/hasState
+<https://yingying-zhang.github.io/hasState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasState> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Device> .
+<https://yingying-zhang.github.io/hasState> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:State> .
+# 
+# https://yingying-zhang.github.io/hasStorey
+<https://yingying-zhang.github.io/hasStorey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasStorey> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/Zone> .
+<https://yingying-zhang.github.io/hasStorey> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Storey> .
+# 
+# https://yingying-zhang.github.io/hasTimeSeriesData
+<https://yingying-zhang.github.io/hasTimeSeriesData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/hasTimeSeriesData> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Measurement> .
+<https://yingying-zhang.github.io/hasTimeSeriesData> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Output> .
+<https://yingying-zhang.github.io/hasTimeSeriesData> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Result> .
+<https://yingying-zhang.github.io/hasTimeSeriesData> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:TimeSeriesData> .
+# 
+# https://yingying-zhang.github.io/isAccomplishedBy
+<https://yingying-zhang.github.io/isAccomplishedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/isAccomplishedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Task> .
+<https://yingying-zhang.github.io/isAccomplishedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Device> .
+# 
+# https://yingying-zhang.github.io/isOfferedBy
+<https://yingying-zhang.github.io/isOfferedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/isOfferedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Service> .
+<https://yingying-zhang.github.io/isOfferedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Device> .
+# 
+# https://yingying-zhang.github.io/isPropertyOf
+<https://yingying-zhang.github.io/isPropertyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/isPropertyOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Property> .
+<https://yingying-zhang.github.io/isPropertyOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Sensor> .
+# 
+# https://yingying-zhang.github.io/isResultOf
+<https://yingying-zhang.github.io/isResultOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/isResultOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Result> .
+<https://yingying-zhang.github.io/isResultOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Sample> .
+<https://yingying-zhang.github.io/isResultOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/isSampleOf
+<https://yingying-zhang.github.io/isSampleOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/isSampleOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Sample> .
+<https://yingying-zhang.github.io/isSampleOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:FeatureOfInterest> .
+# 
+# https://yingying-zhang.github.io/madeBySensor
+<https://yingying-zhang.github.io/madeBySensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/madeBySensor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Measurement> .
+<https://yingying-zhang.github.io/madeBySensor> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Sensor> .
+# 
+# https://yingying-zhang.github.io/makesMeasurement
+<https://yingying-zhang.github.io/makesMeasurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/makesMeasurement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Device> .
+<https://yingying-zhang.github.io/makesMeasurement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Sensor> .
+<https://yingying-zhang.github.io/makesMeasurement> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Measurement> .
+# 
+# https://yingying-zhang.github.io/observes
+<https://yingying-zhang.github.io/observes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://yingying-zhang.github.io/observes> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Sensor> .
+<https://yingying-zhang.github.io/observes> <http://www.w3.org/2000/01/rdf-schema#range> <https://yingying-zhang.github.io/beo:Property> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://yingying-zhang.github.io/hasPrice
+<https://yingying-zhang.github.io/hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://yingying-zhang.github.io/hasPrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# https://yingying-zhang.github.io/hasValue
+<https://yingying-zhang.github.io/hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://yingying-zhang.github.io/hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Output> .
+<https://yingying-zhang.github.io/hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Result> .
+<https://yingying-zhang.github.io/hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Sample> .
+<https://yingying-zhang.github.io/hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Sensor> .
+<https://yingying-zhang.github.io/hasValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://yingying-zhang.github.io/resultTime
+<https://yingying-zhang.github.io/resultTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://yingying-zhang.github.io/resultTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/Observation> .
+<https://yingying-zhang.github.io/resultTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Output> .
+<https://yingying-zhang.github.io/resultTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://yingying-zhang.github.io/beo:Result> .
+<https://yingying-zhang.github.io/resultTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://yingying-zhang.github.io/Energy
+<https://yingying-zhang.github.io/Energy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://yingying-zhang.github.io/Information
+<https://yingying-zhang.github.io/Information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://yingying-zhang.github.io/Observation
+<https://yingying-zhang.github.io/Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://yingying-zhang.github.io/Zone
+<https://yingying-zhang.github.io/Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://yingying-zhang.github.io/beo:Area
+<https://yingying-zhang.github.io/beo:Area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Area> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Zone> .
+# 
+# https://yingying-zhang.github.io/beo:Building
+<https://yingying-zhang.github.io/beo:Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Zone> .
+# 
+# https://yingying-zhang.github.io/beo:Command
+<https://yingying-zhang.github.io/beo:Command> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Command> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Energy> .
+# 
+# https://yingying-zhang.github.io/beo:Device
+<https://yingying-zhang.github.io/beo:Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Energy> .
+# 
+# https://yingying-zhang.github.io/beo:Element
+<https://yingying-zhang.github.io/beo:Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Element> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Zone> .
+# 
+# https://yingying-zhang.github.io/beo:FeatureOfInterest
+<https://yingying-zhang.github.io/beo:FeatureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:FeatureOfInterest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/beo:Function
+<https://yingying-zhang.github.io/beo:Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Energy> .
+# 
+# https://yingying-zhang.github.io/beo:Input
+<https://yingying-zhang.github.io/beo:Input> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Input> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/beo:Issue
+<https://yingying-zhang.github.io/beo:Issue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Issue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Information> .
+# 
+# https://yingying-zhang.github.io/beo:Measurement
+<https://yingying-zhang.github.io/beo:Measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/beo:Output
+<https://yingying-zhang.github.io/beo:Output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Output> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/beo:Plan
+<https://yingying-zhang.github.io/beo:Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Information> .
+# 
+# https://yingying-zhang.github.io/beo:Price
+<https://yingying-zhang.github.io/beo:Price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Price> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Energy> .
+# 
+# https://yingying-zhang.github.io/beo:Procedure
+<https://yingying-zhang.github.io/beo:Procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Procedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/beo:Property
+<https://yingying-zhang.github.io/beo:Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/beo:Regulation
+<https://yingying-zhang.github.io/beo:Regulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Regulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Information> .
+# 
+# https://yingying-zhang.github.io/beo:Result
+<https://yingying-zhang.github.io/beo:Result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Result> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/beo:Sample
+<https://yingying-zhang.github.io/beo:Sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Sample> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/beo:Sensor
+<https://yingying-zhang.github.io/beo:Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/beo:Service
+<https://yingying-zhang.github.io/beo:Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Energy> .
+# 
+# https://yingying-zhang.github.io/beo:Site
+<https://yingying-zhang.github.io/beo:Site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Zone> .
+# 
+# https://yingying-zhang.github.io/beo:Space
+<https://yingying-zhang.github.io/beo:Space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Space> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Zone> .
+# 
+# https://yingying-zhang.github.io/beo:State
+<https://yingying-zhang.github.io/beo:State> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:State> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Energy> .
+# 
+# https://yingying-zhang.github.io/beo:Storey
+<https://yingying-zhang.github.io/beo:Storey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Storey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Zone> .
+# 
+# https://yingying-zhang.github.io/beo:Task
+<https://yingying-zhang.github.io/beo:Task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Task> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Energy> .
+# 
+# https://yingying-zhang.github.io/beo:TimeSeriesData
+<https://yingying-zhang.github.io/beo:TimeSeriesData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:TimeSeriesData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Information> .
+# 
+# https://yingying-zhang.github.io/beo:Unit
+<https://yingying-zhang.github.io/beo:Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Energy> .
+# 
+# https://yingying-zhang.github.io/beo:UnitOfMeasure
+<https://yingying-zhang.github.io/beo:UnitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:UnitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Observation> .
+# 
+# https://yingying-zhang.github.io/beo:3DModel
+<https://yingying-zhang.github.io/beo:3DModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://yingying-zhang.github.io/beo:3DModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://yingying-zhang.github.io/Information> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://yingying-zhang.github.io/beo:Building> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://yingying-zhang.github.io/beo:Element> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://yingying-zhang.github.io/beo:Site> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://yingying-zhang.github.io/beo:Storey> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
